@@ -1,0 +1,157 @@
+*{
+    color: white;
+}
+li{
+    display: inline;
+    list-style: none;
+
+}
+ 
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    margin: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+select option:hover{
+    color: red;
+}
+
+.navbar{
+    width:100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* flex-direction: row; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+.selection{
+    background-color: black; 
+    color: white;
+    border: none;
+}
+
+.selection:hover{
+    color: red;
+}
+
+.search{
+    margin-top: 18px;
+    margin-left: 370px;
+    height: 30px;
+}
+
+.box1{
+    background-image:url('./IMAGES/GTA5-THIEF-MOB.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box2{
+    background-image:url('./IMAGES/COD-WARZONE.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box3{
+    background-image:url('./IMAGES/GOW-RAG-MOB.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box4{
+    background-image:url('./IMAGES/minecraft.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box5{
+    background-image:url('./IMAGES/resident-evil-3.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box6{
+    background-image:url('./IMAGES/rdr.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box7{
+    background-image:url('./IMAGES/LASTOFUS-MOB.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+.box8{
+    background-image:url('./IMAGES/HORIZON-FORZA.jpg');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+
+.box9{
+    background-image:url('./IMAGES/uncharted.png');
+    background-size:100% 100%;
+    text-align: center;
+    width:270px;
+    height: 370px;
+    /* border: 2px solid white; */
+    
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.con-head{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.con-head2{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
